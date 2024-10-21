@@ -1,0 +1,90 @@
+body {
+    background-color: black;
+    color: green;
+    font-family: 'Arial', sans-serif; 
+}
+
+h1 {
+    font-size: 2.5em; 
+    border: 2px solid green; 
+    border-radius: 5px; 
+    padding: 10px; 
+    text-align: center; 
+    background-color: #0f0f0f; 
+}
+
+.formABM, .formDatos {
+    display: flex;               
+    justify-content: center;     
+    align-items: center;         
+    flex-direction: column; 
+    height: 100vh;            
+    margin: 0 auto;           
+    width: 60%;               
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table tr th {
+    color: green;
+    background-color: black;
+    font-size: 18px;
+    text-align: left;
+}
+
+select {
+    width: 20%;
+    padding: 10px;
+    border: 1px solid green; 
+    border-radius: 5px;
+    background-color: green;
+    color: black;
+    margin: 10px 0; 
+}
+
+input[type="text"] {
+    display: flex;
+    width: 40%;
+    padding: 4px;
+    border: 2px solid green; 
+    border-radius: 5px;
+    margin-bottom: 3px; /
+}
+
+.checkbox {
+    color: green;
+    background-color: rgb(15, 15, 15);
+    margin: 10px 0; 
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+button {
+    width: 10%;
+    padding: 10px;
+    background-color: green;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.hidden {
+    display: none; 
+}
+
+.visible {
+    background-color: black; 
+}
